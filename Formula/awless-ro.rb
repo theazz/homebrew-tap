@@ -34,7 +34,7 @@ class AwlessRo < Formula
 
   def install
     bin.install "awless-ro"
-    generate_completions_from_executable(bin/"awless-ro", "completion", shells: [:bash, :zsh, :fish])
+    generate_completions_from_executable(bin/"awless-ro", "completion")
   end
 
   test do
