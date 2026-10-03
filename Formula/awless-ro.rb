@@ -12,23 +12,23 @@ class AwlessRo < Formula
   # from the tag after the tests and govulncheck pass, and listed in its SHA256SUMS.
   on_macos do
     on_arm do
-      url "https://github.com/theazz/awless-ro/releases/download/v0.2.1/awless-ro-darwin-arm64.tar.gz"
-      sha256 "5238dc1c0716170c3dfc1dfeff7de82c5482ad07d6a3709f41e2545808af93f1"
+      url "https://github.com/theazz/awless-ro/releases/download/v0.2.2/awless-ro-darwin-arm64.tar.gz"
+      sha256 "ad1926f6ffe33acdfb06894be54159e96d68900909925603594841d8659d746e"
     end
     on_intel do
-      url "https://github.com/theazz/awless-ro/releases/download/v0.2.1/awless-ro-darwin-amd64.tar.gz"
-      sha256 "872eab66b62a8ba63358e6ccd8f38424409072b2e53e9892142d9c432ae157a7"
+      url "https://github.com/theazz/awless-ro/releases/download/v0.2.2/awless-ro-darwin-amd64.tar.gz"
+      sha256 "557875db61a3e8ecbe7894b5418975bf72041921a59911e28d8b17a8a90f28fa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/theazz/awless-ro/releases/download/v0.2.1/awless-ro-linux-arm64.tar.gz"
-      sha256 "d00fa05701453fc07c1fc3416c15eb0b3d824ad527854bd14e93eca027d304b6"
+      url "https://github.com/theazz/awless-ro/releases/download/v0.2.2/awless-ro-linux-arm64.tar.gz"
+      sha256 "4006845136438e1364c8fc36fc1456dc3e486b69eebc60300569610c133a93e5"
     end
     on_intel do
-      url "https://github.com/theazz/awless-ro/releases/download/v0.2.1/awless-ro-linux-amd64.tar.gz"
-      sha256 "1fbb7d7a80dea699747f136473246aec130fa162c9ab8670531eac1c1542000e"
+      url "https://github.com/theazz/awless-ro/releases/download/v0.2.2/awless-ro-linux-amd64.tar.gz"
+      sha256 "6c93aded4985e4c4efd91c205ed0cb724863070e92320a4d2066071bd67dd1b8"
     end
   end
 
