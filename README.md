@@ -16,5 +16,5 @@ brew install awless-ro
 
 The formula installs the binary published with each
 [awless-ro release](https://github.com/theazz/awless-ro/releases), verified against
-its SHA-256, plus bash completion. Issues with the tool itself belong in
+its SHA-256, plus completion for bash, zsh and fish. Issues with the tool itself belong in
 [theazz/awless-ro](https://github.com/theazz/awless-ro/issues).
